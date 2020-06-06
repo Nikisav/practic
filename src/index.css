@@ -1,0 +1,184 @@
+body
+{
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code
+{
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*
+{
+  margin: 0;
+  padding: 0;
+}
+body
+{
+  background: url("https://ampir.ru/upload/iblock/135/13566b3189b3ba3580b9d9024328ca87.jpeg");
+}
+input
+{
+  cursor: pointer;
+  outline: none;
+  border: solid 2px #f2f2f2;
+}
+input[disabled] {
+  color: gray;
+  cursor: default;
+  pointer-events: none;
+}
+select
+{
+  cursor: pointer;
+}
+h1, h2
+{
+  font: normal 170% 'century gothic';
+  margin: 0 0 15px 0;
+  color: black;
+}
+h2
+{
+  font-size: 140%;
+}
+a, a:hover
+{
+  text-decoration: none ;
+  outline: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+thead th {
+  position: sticky;
+  top: 0;
+  background: darkgray;
+  border: 1px solid black;
+}
+th, td {
+  height: 25px;
+  border: 1px solid black;
+}
+
+
+.App
+{
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 10vh 1fr 10vh;
+}
+.header
+{
+  background-color: #23669e;
+  height: 100px;
+  font-size: 0.8em;
+  min-width: 900px;
+}
+.footer
+{
+  background-color: #23669e;
+  font-size: 0.8em;
+}
+.footer_text
+{
+  font: normal 100% "century gothic", sans-serif;
+  position: center;
+  color: white;
+}
+.logo
+{
+  width: 880px;
+  padding-bottom: 40px;
+}
+.logo h1, .logo h2
+{
+  font: normal 300% "century gothic", sans-serif;
+  margin: 0 8px 0 8px;
+}
+.sub_logo h1, .sub_logo h1 a, .sub_logo h1 a:hover
+{
+  padding: 22px 0 0 0;
+  color: white;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+
+}
+.sub_logo h2
+{
+  padding: 4px 0 0 0;
+  color: #999;
+  font-size: 0.9em;
+}
+
+.main, .logo, .menu, .content
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul.menu
+{
+  float: right;
+}
+.content
+{
+  justify-content: space-between;
+  display: flex;
+  width: 880px;
+  overflow: hidden;
+  margin: auto auto 0 auto;
+}
+.sidebar_cont
+{
+  float: right;
+  width: 220px;
+}
+.sidebar, .sidebar_settings
+{
+  float: right;
+  width: 222px;
+  padding: 5%;
+  margin: 0 0 16px 0;
+  border: solid 2px #c1c1c1;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+.sidebar_settings
+{
+  font: normal 100% "century gothic", sans-serif;
+}
+.sidebar h2, .sidebar_settings h2
+{
+  color: #23669e;
+}
+.main_content
+{
+  height: 430px;
+  width: 640px;
+}
+.container {
+  height: 340px;
+  width: 500px;
+  overflow: auto;
+  border: solid 2px #c1c1c1;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.income
+{
+  color: green;
+}
+.outcome
+{
+  color: red;
+}

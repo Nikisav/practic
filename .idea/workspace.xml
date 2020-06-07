@@ -19,14 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcf0839a-3c8f-4363-9c61-43d5fc06e48e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/content/Table1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/content/Table2.js" afterDir="false" />
+    <list default="true" id="dcf0839a-3c8f-4363-9c61-43d5fc06e48e" name="Default Changelist" comment="Реализованно показ времени и подключенна группировка к селектору">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/content/Checkbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content/Checkbox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/content/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content/Content.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
@@ -83,8 +77,16 @@
       <workItem from="1591356729278" duration="5114000" />
       <workItem from="1591367775149" duration="3217000" />
       <workItem from="1591428633594" duration="31860000" />
-      <workItem from="1591515541900" duration="10051000" />
+      <workItem from="1591515541900" duration="13506000" />
     </task>
+    <task id="LOCAL-00001" summary="Реализованно показ времени и подключенна группировка к селектору">
+      <created>1591534940075</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591534940075</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +102,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Реализованно показ времени и подключенна группировка к селектору" />
+    <option name="LAST_COMMIT_MESSAGE" value="Реализованно показ времени и подключенна группировка к селектору" />
   </component>
   <component name="WindowStateProjectService">
     <state x="844" y="58" width="374" height="618" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1591357181007">
@@ -138,6 +144,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="288" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591298685709" />
+    <state x="550" y="100" key="Vcs.Push.Dialog.v2" timestamp="1591534956269">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="550" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591534956269" />
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591539220706">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1591539220706" />
     <state x="65" y="47" key="new project wizard" timestamp="1591297716172">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

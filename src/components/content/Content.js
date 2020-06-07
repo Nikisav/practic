@@ -20,10 +20,16 @@ export function Content() {
     const onChangeCheckbox = e => {
         const attr = e.target.getAttribute('dataId');
         const checked = e.target.checked;
-        setCheckboxState(prevState => ({
-            ...prevState,
-            [attr]: checked,
-        }));
+        setCheckboxState(prevState => {
+            const countChecked = Object.values(prevState).reduce((acc, el) => el ? acc + 1 : acc, 0);
+            if (countChecked === 1 && !checked) {
+                return prevState;
+            }
+            return {
+                ...prevState,
+                [attr]: checked,
+            };
+        });
     };
     const onChangeSelect = e => {
         setSelectedIndex(e.target.selectedIndex);
@@ -51,40 +57,40 @@ export function Content() {
             <div className="sidebar_cont">
                 <div className="sidebar_settings">
                     <h2>Отображать:</h2>
-                    <div className="settings">
-                        <Checkbox
-                            checked={showDate}
-                            title={' Дату'}
-                            onChange={onChangeCheckbox}
-                            dataId={'showDate'}
-                        />
-                        <Checkbox
-                            checked={showTime}
-                            title={' Время'}
-                            onChange={onChangeCheckbox}
-                            dataId={'showTime'}
-                        />
-                        <Checkbox
-                            checked={showType}
-                            title={' Тип'}
-                            onChange={onChangeCheckbox}
-                            dataId={'showType'}
-                        />
-                        <Checkbox
-                            checked={showIncome}
-                            title={' Приход'}
-                            onChange={onChangeCheckbox}
-                            dataId={'showIncome'}
-                        />
-                        <Checkbox
-                            checked={showOutcome}
-                            title={' Расход'}
-                            onChange={onChangeCheckbox}
-                            dataId={'showOutcome'}
-                        />
-                    </div>
-                </div>
-                <div className="sidebar_settings">
+                        <div className="settings">
+                            <Checkbox
+                                checked={showDate}
+                                title={' Дату'}
+                                onChange={onChangeCheckbox}
+                                dataId={'showDate'}
+                            />
+                            <Checkbox
+                                checked={showTime}
+                                title={' Время'}
+                                onChange={onChangeCheckbox}
+                                dataId={'showTime'}
+                            />
+                            <Checkbox
+                                checked={showType}
+                                title={' Тип'}
+                                onChange={onChangeCheckbox}
+                                dataId={'showType'}
+                            />
+                            <Checkbox
+                                checked={showIncome}
+                                title={' Приход'}
+                                onChange={onChangeCheckbox}
+                                dataId={'showIncome'}
+                            />
+                            <Checkbox
+                                checked={showOutcome}
+                                title={' Расход'}
+                                onChange={onChangeCheckbox}
+                                dataId={'showOutcome'}
+                            />
+                        </div>{/* settings */}
+                </div>{/* sidebar_settings */}
+                    <div className="sidebar_settings">
                         <h2>Группировка</h2>
                         <div>
                             <select onChange={onChangeSelect}>
@@ -92,8 +98,8 @@ export function Content() {
                                 <option>С группировкой</option>
                             </select>
                         </div>
-                </div>
-            </div>
+                    </div>
+            </div>{/* sidebar_cont */}
         </div>  /* content */
     );
 }

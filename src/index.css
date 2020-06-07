@@ -53,14 +53,18 @@ table {
   width: 100%;
 }
 thead th {
+  font-weight: 700;
+  font: normal 100% 'century gothic';
+  color: white;
   position: sticky;
   top: 0;
-  background: darkgray;
-  border: 1px solid black;
+  background: steelblue;
+  border: 2px solid #f9f9f9;
 }
 th, td {
+  background: #c3daf8;
   height: 25px;
-  border: 1px solid black;
+  border: 2px solid #f9f9f9 ;
 }
 
 

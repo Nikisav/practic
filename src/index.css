@@ -65,7 +65,14 @@ th, td {
   height: 25px;
   border: 2px solid #f9f9f9 ;
 }
-
+select {
+  font: 400 90% "century gothic", sans-serif;
+  background-color: #f2f2f2;
+  border: 2px solid #999;
+  border-radius: 5px;
+  width: 130px;
+  height: 30px;
+}
 .App
 {
   display: grid;

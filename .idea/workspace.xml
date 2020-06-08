@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcf0839a-3c8f-4363-9c61-43d5fc06e48e" name="Default Changelist" comment="Пофикшено отображение времени">
+    <list default="true" id="dcf0839a-3c8f-4363-9c61-43d5fc06e48e" name="Default Changelist" comment="Поправлен select">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/content/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content/Content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +80,8 @@
       <workItem from="1591428633594" duration="31860000" />
       <workItem from="1591515541900" duration="19658000" />
       <workItem from="1591555904768" duration="1372000" />
-      <workItem from="1591614194660" duration="13392000" />
+      <workItem from="1591614194660" duration="13452000" />
+      <workItem from="1591635838227" duration="3436000" />
     </task>
     <task id="LOCAL-00001" summary="Реализованно показ времени и подключенна группировка к селектору">
       <created>1591534940075</created>
@@ -115,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591626496964</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Поправлен select">
+      <created>1591628951817</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591628951817</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +148,8 @@
     <MESSAGE value="Добавлена сортировка данных в таблице" />
     <MESSAGE value="Починил версту" />
     <MESSAGE value="Пофикшено отображение времени" />
-    <option name="LAST_COMMIT_MESSAGE" value="Пофикшено отображение времени" />
+    <MESSAGE value="Поправлен select" />
+    <option name="LAST_COMMIT_MESSAGE" value="Поправлен select" />
   </component>
   <component name="WindowStateProjectService">
     <state x="844" y="58" width="374" height="618" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1591357181007">
@@ -177,10 +188,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="288" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591298685709" />
-    <state x="550" y="100" key="Vcs.Push.Dialog.v2" timestamp="1591617823420">
+    <state x="550" y="100" key="Vcs.Push.Dialog.v2" timestamp="1591628959830">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="550" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591617823420" />
+    <state x="550" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591628959830" />
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591539220706">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

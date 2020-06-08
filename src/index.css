@@ -62,8 +62,8 @@ thead th {
 }
 th, td {
   background: #c3daf8;
-  height: 25px;
   border: 2px solid #f9f9f9 ;
+  height: 25px;
 }
 select {
   font: 400 90% "century gothic", sans-serif;
@@ -174,7 +174,7 @@ select {
   background-color: #f9f9f9;
   padding-right: 1%;
   padding-left: 1%;
-  max-height: 340px;
+  max-height: calc(100% - 28px);
 }
 .income
 {

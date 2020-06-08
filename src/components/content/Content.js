@@ -52,6 +52,15 @@ export function Content() {
             </div>
 
             <div className="sidebar_cont">
+                <div className="sidebar_settings">
+                    <h2>Группировка</h2>
+                    <div>
+                        <select onChange={onChangeSelect}>
+                            <option>Без группировки</option>
+                            <option>По году</option>
+                        </select>
+                    </div>
+                </div>
                 {selectedIndex === 0 &&  <div className="sidebar_settings">
                     <h2>Отображать:</h2>
                         <div className="settings">
@@ -88,15 +97,6 @@ export function Content() {
                             />
                         </div>{/* settings */}
                 </div>}{/* sidebar_settings */}
-                    <div className="sidebar_settings">
-                        <h2>Группировка</h2>
-                        <div>
-                            <select onChange={onChangeSelect}>
-                                <option>Без группировки</option>
-                                <option>По году</option>
-                            </select>
-                        </div>
-                    </div>
             </div>{/* sidebar_cont */}
         </div>  /* content */
     );

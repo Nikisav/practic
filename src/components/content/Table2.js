@@ -46,10 +46,10 @@ export function TableGroup() {
                         <td>
                             {year}
                         </td>
-                        <td className={'green'}>
+                        <td className="income">
                             {income.toFixed(2)}
                         </td>
-                        <td className={'red'}>
+                        <td className="outcome">
                             {outcome.toFixed(2)}
                         </td>
                     </tr>

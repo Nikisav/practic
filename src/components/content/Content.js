@@ -15,7 +15,6 @@ export function Content() {
     const [{showDate, showType, showTime, showIncome, showOutcome}, setCheckboxState] = React.useState(initialState);
     const formatMonth = (month) => month < 10 ? '0' + month : month;
     const [selectedIndex, setSelectedIndex] = React.useState(0);
-
     const onChangeCheckbox = e => {
         const attr = e.target.getAttribute('dataId');
         const checked = e.target.checked;

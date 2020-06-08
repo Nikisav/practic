@@ -88,7 +88,8 @@ th, td {
 .footer_text
 {
   font: normal 100% "century gothic", sans-serif;
-  position: center;
+  justify-content: center;
+
   color: white;
 }
 .logo
@@ -128,16 +129,18 @@ ul.menu
 }
 .content
 {
+  overflow-y: auto;
   justify-content: space-between;
   display: flex;
   width: 880px;
-  overflow: hidden;
-  margin: auto auto 0 auto;
+    margin: 62px auto 0px auto;
+
 }
 .sidebar_cont
 {
   float: right;
   width: 220px;
+  height: auto;
 }
 .sidebar, .sidebar_settings
 {
@@ -159,7 +162,7 @@ ul.menu
 }
 .main_content
 {
-  height: 430px;
+  height: auto;
   width: 640px;
 }
 .container {

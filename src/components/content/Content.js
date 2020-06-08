@@ -1,6 +1,5 @@
 import React from 'react';
 import {Checkbox} from './Checkbox';
-import {myStatementData} from "../../my-statement-data";
 import {Table} from './Table1';
 import {TableGroup} from './Table2';
 
@@ -37,7 +36,6 @@ export function Content() {
 
     return (
         <div className="content">
-
             <div className="main_content">
                 <div className="container">
                     {selectedIndex === 0 ? (
@@ -55,7 +53,7 @@ export function Content() {
             </div>
 
             <div className="sidebar_cont">
-                <div className="sidebar_settings">
+                {selectedIndex === 0 &&  <div className="sidebar_settings">
                     <h2>Отображать:</h2>
                         <div className="settings">
                             <Checkbox
@@ -70,6 +68,7 @@ export function Content() {
                                 onChange={onChangeCheckbox}
                                 dataId={'showTime'}
                             />
+
                             <Checkbox
                                 checked={showType}
                                 title={' Тип'}
@@ -89,13 +88,13 @@ export function Content() {
                                 dataId={'showOutcome'}
                             />
                         </div>{/* settings */}
-                </div>{/* sidebar_settings */}
+                </div>}{/* sidebar_settings */}
                     <div className="sidebar_settings">
                         <h2>Группировка</h2>
                         <div>
                             <select onChange={onChangeSelect}>
                                 <option>Без группировки</option>
-                                <option>С группировкой</option>
+                                <option>По году</option>
                             </select>
                         </div>
                     </div>
@@ -104,44 +103,3 @@ export function Content() {
     );
 }
 
-/*<div className="App-content">
-    <input type="checkbox" onChange={onChange} title={'Показать дату'} checked={showDate}/>
-    <div className="App-label-container">
-        <label>Показать дату</label>
-    </div>
-    <table>
-        <tr>
-            {showDate && <th>
-                Дата
-            </th>}
-            <th>
-                Тип
-            </th>
-            <th>
-                Приход
-            </th>
-            <th>
-                Расход
-            </th>
-        </tr>
-        {myStatementData.map(el => {
-            const tableDate = new Date(el.date).getDate() + '.' + formatMonth(new Date(el.date).getMonth() + 1) + '.' + new Date(el.date).getFullYear();
-            return (
-                <tr>
-                    {showDate && <td>
-                        {tableDate}
-                    </td>}
-                    <td>
-                        {el.type}
-                    </td>
-                    <td className={'green'}>
-                        {el.amount > 0 ? el.amount : ''}
-                    </td>
-                    <td className={'red'}>
-                        {el.amount < 0 ? -el.amount : ''}
-                    </td>
-                </tr>
-            )
-        })}
-    </table>
-</div>*/

@@ -27,7 +27,7 @@ export function Table({showDate, showType, showTime, showIncome, showOutcome}) {
             </tr>
             </thead>
 
-            {myStatementData.sort((a,b) => new Date(a.date) - new Date(b.date)).map(el => {
+            {myStatementData.sort((a,b) => new Date(b.date) - new Date(a.date)).map(el => {
                 const tableDate = formatDay(new Date(el.date).getDate()) + '.' + formatMonth(new Date(el.date).getMonth() + 1) + '.' + new Date(el.date).getFullYear();
                 const tableTime = formatTime(new Date(el.date).getHours()) + ':' + formatTime(new Date(el.date).getMinutes()) + ':' + formatTime(new Date(el.date).getSeconds());
                 return (

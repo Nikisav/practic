@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcf0839a-3c8f-4363-9c61-43d5fc06e48e" name="Default Changelist" comment="Поправлен select">
+    <list default="true" id="dcf0839a-3c8f-4363-9c61-43d5fc06e48e" name="Default Changelist" comment="Внесены правки в оформление сайта. исправлена высота таблицы, больше не &quot;скачет&quot; селект">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/content/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content/Content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/content/Table1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content/Table1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/копия/styles.css" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/untitled" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="sshConsole" />
@@ -81,7 +79,10 @@
       <workItem from="1591515541900" duration="19658000" />
       <workItem from="1591555904768" duration="1372000" />
       <workItem from="1591614194660" duration="13452000" />
-      <workItem from="1591635838227" duration="3436000" />
+      <workItem from="1591635838227" duration="3518000" />
+      <workItem from="1591649387892" duration="1167000" />
+      <workItem from="1591708543293" duration="6644000" />
+      <workItem from="1591792290620" duration="3324000" />
     </task>
     <task id="LOCAL-00001" summary="Реализованно показ времени и подключенна группировка к селектору">
       <created>1591534940075</created>
@@ -125,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591628951817</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Внесены правки в оформление сайта. исправлена высота таблицы, больше не &quot;скачет&quot; селект">
+      <created>1591643670464</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591643670464</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +157,8 @@
     <MESSAGE value="Починил версту" />
     <MESSAGE value="Пофикшено отображение времени" />
     <MESSAGE value="Поправлен select" />
-    <option name="LAST_COMMIT_MESSAGE" value="Поправлен select" />
+    <MESSAGE value="Внесены правки в оформление сайта. исправлена высота таблицы, больше не &quot;скачет&quot; селект" />
+    <option name="LAST_COMMIT_MESSAGE" value="Внесены правки в оформление сайта. исправлена высота таблицы, больше не &quot;скачет&quot; селект" />
   </component>
   <component name="WindowStateProjectService">
     <state x="844" y="58" width="374" height="618" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1591357181007">
@@ -160,10 +169,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="757" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1591457435891" />
-    <state x="804" y="119" key="FileChooserDialogImpl" timestamp="1591463096692">
+    <state x="804" y="119" key="FileChooserDialogImpl" timestamp="1591794298167">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="804" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591463096692" />
+    <state x="804" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591794298167" />
     <state x="557" y="262" key="Github.ShareDialog" timestamp="1591472643350">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -188,10 +197,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="288" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591298685709" />
-    <state x="550" y="100" key="Vcs.Push.Dialog.v2" timestamp="1591628959830">
+    <state x="550" y="100" key="Vcs.Push.Dialog.v2" timestamp="1591649874833">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="550" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591628959830" />
+    <state x="550" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591649874833" />
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591539220706">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
